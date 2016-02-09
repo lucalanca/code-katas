@@ -1,0 +1,22 @@
+{
+  "name": "code-katas",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "tape src/**/*.spec.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucalanca/code-katas.git"
+  },
+  "author": "João Figueiredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucalanca/code-katas/issues"
+  },
+  "homepage": "https://github.com/lucalanca/code-katas#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.4.0"
+  }
+}
